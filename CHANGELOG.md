@@ -27,7 +27,7 @@
 - 🥚 イースターエッグ
 
 <h2>
-  [<a href="https://github.com/IamMr-S/Learn-Security-Specialist/commits/">
+  [<a href="https://github.com/IamMr-S/Learn-Security-Specialist/commit/5115d20dcfa8cde8877b75e17f163f22d3c8785c">
     v0.0.1
   </a>] - 2023-09-11
 </h2>
