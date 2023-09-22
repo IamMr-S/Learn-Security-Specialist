@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="222" viewBox="0 0 270 222">
+  <g id="LSC" transform="translate(2 2)">
+    <text id="Specialist" transform="translate(13 204)" fill="none" stroke="gold" stroke-width="2" font-size="60" font-family="DINAlternate-Bold, DIN Alternate" font-weight="700" letter-spacing="0.02em"><tspan x="0" y="0">Specialist</tspan></text>
+    <text id="C" transform="translate(75 131)" fill="none" stroke="#a42fd8" stroke-width="2" font-size="60" font-family="DINAlternate-Bold, DIN Alternate" font-weight="700"><tspan x="0" y="0">C</tspan></text>
+    <text id="S" transform="translate(13 131)" fill="none" stroke="#a42fd8" stroke-width="2" font-size="60" font-family="DINAlternate-Bold, DIN Alternate" font-weight="700"><tspan x="0" y="0">S</tspan></text>
+    <text id="L" transform="translate(13 59)" fill="none" stroke="#00ff9d" stroke-width="2" font-size="60" font-family="DINAlternate-Bold, DIN Alternate" font-weight="700"><tspan x="0" y="0">L</tspan></text>
+    <text id="Learn_SeCurity_Specialist" data-name="Learn SeCurity Specialist" transform="translate(0 56)" fill="none" stroke="#f0f8ff" stroke-width="2" font-size="60" font-family="DINAlternate-Bold, DIN Alternate" font-weight="700" letter-spacing="0.02em"><tspan x="0" y="0" xml:space="preserve">   earn</tspan><tspan x="0" y="75" xml:space="preserve">   e  urity</tspan></text>
+  </g>
+</svg>

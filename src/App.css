@@ -1,0 +1,262 @@
+/* グローバルカラー変数 */
+:root {
+  --white: #f0f8ff;
+  --gray: #333333;
+  --green: #00ff9d;
+  --yellow: #ffd700;
+  --purple: #a42fd8;
+}
+
+/* 全体 */
+html,
+body {
+  font-family: "BIZ UDGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--white);
+  background-color: var(--gray);
+}
+
+input:hover,
+a:hover {
+	cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+
+.title {
+  margin: 0;
+}
+
+/* スクロールバー */
+body::-webkit-scrollbar{
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track{
+  background-color: rgba(164, 47, 216, 0.5);
+  box-shadow:0 0 5px var(--purple) inset ;
+  opacity: 0.5;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: #A42FD8;
+  border-radius: 5px;
+}
+
+/* ハンバーガーメニュー */
+.menuIconStyle {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 100;
+  background-color: #333;
+  border: 1px solid #707070;
+  border-radius: 50%;
+}
+
+.menuIconStyle:hover {
+  cursor: pointer;
+}
+
+.menuIconLineStyle {
+  display: block;
+  position: relative;
+  z-index: 100;
+  margin: 10px;
+  border-bottom: 1px solid #707070;
+  transition: 0.5s ease;
+}
+
+/* ハンバーガーメニュー（アクティブ） */
+.menuIconLineStyle:nth-child(1).active {
+  top: 10px;
+  transform: rotate(45deg);
+}
+
+.menuIconLineStyle:nth-child(2).active {
+  opacity: 0;
+}
+
+.menuIconLineStyle:nth-child(3).active {
+  top: -11px;
+  transform: rotate(-45deg);
+}
+
+/* メニューアイコン */
+.menuStyle {
+  width: 50px;
+  height: auto;
+  position: fixed;
+  top: 70px;
+  right: -60px;
+  z-index: 100;
+  transition: 0.5s ease;
+}
+
+.menuStyle .menuIconImg {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.menuStyle .menuIconImg:nth-child(1) {
+  background-image: url(./img/Home-Icon.svg);
+}
+
+.menuStyle .menuIconImg:nth-child(2) {
+  background-image: url(./img/News-Icon.svg);
+}
+
+.menuStyle .menuIconImg:nth-child(3) {
+  background-image: url(./img/Learn-Icon.svg);
+}
+
+.menuStyle .menuIconImg:nth-child(4) {
+  background-image: url(./img/Settings-Icon.svg);
+}
+
+.menuStyle .menuIconImg:nth-child(5) {
+  background-image: url(./img/Contact-Icon.svg);
+  margin-bottom: 0;
+}
+
+/* メニューアイコン（アクティブ） */
+.menuStyle.active {
+  right: 10px;
+  transition: 0.5s ease;
+}
+
+/* タイトル */
+.whatIsSC .title,
+.news .title,
+.contents .title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* イントロダクション */
+.introduction {
+  width: 100%;
+  height: auto;
+}
+
+/* ロゴ */
+.logoImg {
+  width: 70%;
+  height: auto;
+  margin-top:10px;
+}
+
+/* SCとは & ニュース & 目次 */
+.whatIsSC,
+.news,
+.contents {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.purple {
+  color: var(--purple);
+}
+
+/* ニュース */
+th.date,
+td.content {
+  margin: 0;
+  padding: 0;
+}
+
+th.date {
+  font-weight: normal;
+  width: 20%;
+}
+
+/* 目次 */
+.contents {
+  display: block;
+}
+
+summary.title {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* マーカー */
+.primary::marker,
+.secondary::marker,
+.tertiary::marker,
+.quaternary::marker {
+  content: '';
+}
+
+.primary{
+  padding-left: 1.5rem;
+}
+
+.secondary {
+  padding-left: 3rem;
+}
+
+.tertiary {
+  padding-left: 4.5rem;
+}
+
+.quaternary {
+  padding-left: 6rem;
+}
+
+.primary::before,
+.secondary::before,
+.tertiary::before,
+.quaternary::before {
+  content: '';
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 3px;
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid var(--green);
+  border-radius: 50%;
+}
+
+.secondary::before {
+  border: 1px solid var(--purple);
+}
+
+.tertiary::before {
+  border: 1px solid var(--yellow);
+}
+
+.quaternary::before {
+  border: 1px solid var(--white);
+}
+
+details[open] > .primary::before {
+  background-color: var(--green);
+}
+
+details[open] > .secondary::before {
+  background-color: var(--purple);
+}
+
+details[open] > .tertiary::before {
+  background-color: var(--yellow);
+}
+
+details[open] > .quaternary::before {
+  background-color: var(--white);
+}
+
+/* セクション */
+.section {
+  width: 100%;
+  height: 100vh;
+}

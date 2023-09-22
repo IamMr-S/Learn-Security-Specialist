@@ -39,3 +39,16 @@
 - LICENSE
 - package.json
 - LSC.png
+
+<h2>
+  [<a href="https://github.com/IamMr-S/Learn-Security-Specialist/commit/">
+    v0.1.0
+  </a>] - 2023-09-23
+</h2>
+
+### ⚡️ ハンバーガーメニュー・目次の追加
+
+- フレームワーク「React」の使用に伴うディレクトリ構造を変更・ファイルの追加
+- 情報処理安全確保支援士の概要を追加しました
+- 暫定的なニュースを追加
+- ロゴを png から svg に変更
