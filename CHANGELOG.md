@@ -41,7 +41,7 @@
 - LSC.png
 
 <h2>
-  [<a href="https://github.com/IamMr-S/Learn-Security-Specialist/commit/">
+  [<a href="https://github.com/IamMr-S/Learn-Security-Specialist/commit/0b6c066f686ce0b1d8ea90a853f0603e210df0d0">
     v0.1.0
   </a>] - 2023-09-23
 </h2>

@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/IamMr-S/Learn-Security-Specialist">
-    <img src="src/img/LSC.png" alt="Learn-Security-Specialist" />
+    <img src="src/img/LSC.svg" alt="Learn-Security-Specialist" />
   </a>
 </div>
 
